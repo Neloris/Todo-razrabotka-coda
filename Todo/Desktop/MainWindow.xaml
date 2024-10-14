@@ -1,0 +1,21 @@
+﻿<Window x:Class="Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Desktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="51,42,611,254" Source="C:\Users\student\Desktop\images\logo.png" Stretch="Fill"/>
+        <Label x:Name="Добро_пожаловать_" Content="Добро Пожаловать!" HorizontalAlignment="Left" Margin="497,82,0,0" VerticalAlignment="Top" Height="29" Width="179" FontSize="16"/>
+        <Label Content="Почта
+               " HorizontalAlignment="Left" Margin="497,154,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="497,217,0,0" VerticalAlignment="Top"/>
+        <Label Content="Восстановить пароль" HorizontalAlignment="Left" Margin="639,269,0,0" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="189,256,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox HorizontalAlignment="Left" Margin="497,185,0,0" TextWrapping="Wrap" Text="введите почту" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" FontSize="8" Height="18" Opacity="0.5"/>
+        <TextBox HorizontalAlignment="Left" Margin="497,248,0,0" TextWrapping="Wrap" Text="введите пароль" VerticalAlignment="Top" Width="120" FontSize="8" Opacity="0.5"/>
+
+    </Grid>
+</Window>
